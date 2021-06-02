@@ -11,7 +11,7 @@ This is custom framework was made for GoogleSignIn 5.0.2 and Firebase 7.11.1.
 1. Download the CustomGoogleSignInDependencies.framework file
 2. Add the CustomGoogleSignInDependencies.framework to your Xcode Project
 3. Under Targets -> Build Phases -> Link Binary with Libraries: Add the CustomGoogleSignInDependencies.framework file
-5. Under Targets -> Build Phases -> Embeded Frameworks: Enable the checkmark next to "Copy only when installing". Also make sure you see CustomGoogleSignInDependencies.framework is in the list below this checkmark.
+5. Under Targets -> Build Phases -> Embeded Frameworks: Enable the checkmark next to "Copy only when installing". Also make sure you see CustomGoogleSignInDependencies.framework is in the list below this checkmark. (In order to see `Embeded Frameworks` you may have to first add GoogleSignIn, then under Target -> General -> Frameworks, Libraries, and Embedded Content check "Sign and Embed" next to the GoogleSignIn framework.)
 6. Under Targets -> Build Settings -> Build Options: Make sure `Validate Workspace` is checked to yes.
 
 **Make sure you still follow the instructions for the [GoogleSignIn SDK implementation](https://developers.google.com/identity/sign-in/ios/sdk).**
